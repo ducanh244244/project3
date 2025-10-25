@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liverpool FC Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Liverpool FC Gallery</h1>
+
+  <div id="image">Hover over an image below to display here.</div>
+
+  <div class="preview">
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" 
+         alt="Liverpool FC Logo" 
+         onmouseover="upDate(this)" 
+         onmouseout="undo()">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Anfield_-_Main_Stand.jpg" 
+         alt="Anfield Stadium" 
+         onmouseover="upDate(this)" 
+         onmouseout="undo()">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Liverpool_FC_champions_2019-20.jpg" 
+         alt="Liverpool 2019-20 Champions" 
+         onmouseover="upDate(this)" 
+         onmouseout="undo()">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Mohamed_Salah_2018.jpg" 
+         alt="Mohamed Salah" 
+         onmouseover="upDate(this)" 
+         onmouseout="undo()">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

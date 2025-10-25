@@ -1,0 +1,54 @@
+body {
+  background-color: #d00027;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+#image {
+  width: 80%;
+  height: 300px;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  color: #d00027;
+  font-weight: bold;
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin: 30px auto;
+  transition: background 0.5s, color 0.5s;
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.preview img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.preview img:hover {
+  transform: scale(1.05);
+  border-color: gold;
+}
